@@ -1,10 +1,13 @@
 Yuri Dubler , Hello! :)
 
 1. How is the web different than the internet?
-
+The internet is a huge network of networks which are physically connected by wires. The web is a way of accessing information over the web. The internet is the infrastructure upon which the web operates with its protocols to send and recieve information. The web is sort of like all the content that has been sorted and can be officially accessed.
 
 2. Briefly describe how the internet works.
+The internet is a huge network of networks which are physically connected by wires. Information is sent over these wires from a sender to a receiver using protocols, such as the HTTP protocol.
 
 3. What is a directory, and what is its relationship to files?
+A directory is a folder which can contain files and folders.
 
 4. Why is using a VCS beneficial?
+Version Control Systems create a new "save" of the project every time a commit is made. Version Control systems are useful because you can revert back to a previous commit if a change causes the project to break. If a team is working on a project, a VCS helps facilitate merging changes to the project, which can be messy if (for example) numerous team members are working on the same file independently. There are other beneficial features that a VCS possess, but those are the main ones.
