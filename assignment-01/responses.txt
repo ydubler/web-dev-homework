@@ -1,5 +1,10 @@
-Yuri Dubler
+Yuri Dubler , Hello! :)
 
-Hello! :)
+1. How is the web different than the internet?
 
-I edited this file after I created it.
+
+2. Briefly describe how the internet works.
+
+3. What is a directory, and what is its relationship to files?
+
+4. Why is using a VCS beneficial?
