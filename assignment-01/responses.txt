@@ -1,8 +1,8 @@
 1. How is the web different than the internet?
-The internet is a huge network of networks. The networks are connected physically by wires, or, wirelessly. The internet is the infrastructure upon which the service known as "the web" is built. The web is a service that uses the HTTP protocol to facilitate the sending and receiving of data between people on the internet.
+The internet is a huge network of networks. The networks are connected physically by wires, or, wirelessly. The internet is the infrastructure upon which the service known as "the web" is built. The web is a service/system that interconnects resources on the internet using hyperlinks. The web uses the HTTP protocol to facilitate the sending and receiving of data between people on the internet.
 
 2. Briefly describe how the internet works.
-The internet is a huge network of networks which are physically connected by wires. Information is sent over these wires from a sender to a receiver using protocols, such as the HTTP protocol.
+The internet is a huge network of networks which are physically connected by wires. Information is sent over these wires from a sender to a receiver.
 
 3. What is a directory, and what is its relationship to files?
 A directory is a folder which can contain files and folders.
