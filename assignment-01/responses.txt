@@ -1,7 +1,5 @@
-Yuri Dubler , Hello! :)
-
 1. How is the web different than the internet?
-The internet is a huge network of networks which are physically connected by wires. The web is a way of accessing information over the web. The internet is the infrastructure upon which the web operates with its protocols to send and recieve information. The web is sort of like all the content that has been sorted and can be officially accessed.
+The internet is a huge network of networks. The networks are connected physically by wires, or, wirelessly. The web is all of the information that has been classified on the internet. Essentially, the internet is the infrastructure upon which the service known as the "web" is built. The web is the collection of information that is accessed via the internet.
 
 2. Briefly describe how the internet works.
 The internet is a huge network of networks which are physically connected by wires. Information is sent over these wires from a sender to a receiver using protocols, such as the HTTP protocol.
