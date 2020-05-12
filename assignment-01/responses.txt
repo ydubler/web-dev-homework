@@ -2,7 +2,7 @@
 The internet is a huge network of networks. The networks are connected physically by wires, or, wirelessly. The internet is the infrastructure upon which the service known as the "web" is built. The web is a service/system that interconnects resources on the internet using hyperlinks. The web uses the HTTP protocol to facilitate the sending and receiving of data between computers connected to the internet.
 
 2. Briefly describe how the internet works.
-The internet is a huge network of networks which are physically connected by wires. Information is sent over these wires from a sender to a receiver.
+The internet is a huge network of networks which are physically connected by wires. The internet is, essentially, a wire. Information is sent over these wires from a sender to a receiver in packets, which are reassembled on delivery. Every computer and router have a unique IP address which identifies them. When data is sent, the data is "wrapped" with the IP addresses of the sending computer and all of the routers it goes through on it's journey to the receiver. The collection of these IP addresses lets the receiver know where to send back data.
 
 3. What is a directory, and what is its relationship to files?
 A directory is a folder which can contain files and folders.
