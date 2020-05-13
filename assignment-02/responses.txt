@@ -1,0 +1,19 @@
+1.Briefly describe one way how data travels on the internet.
+Data travels on the internet through wires. As data begins traveling from the sender it "wraps" the data with all of the IP addresses it encounters on the way to the receiver which leaves a "bread crumb" trail so that the receiver can send data back to the specific computer that sent the data.
+
+2.What is the relationship between an IP address and the DNS?
+The IP address is the unique ID of a computer on the internet. DNS is the Domain Name Server which matches a url to it's corresponding IP address.
+
+3.What is a cookie?
+When you access a website, it can store a file called a cookie on your computer. A cookie can contain up to 4kb of data about the client. Cookies usually store information about a user's session, such as language preferences, etc. Websites can also choose to store an ID on a cookie which corresponds to information in a database, so that unlimited data can be stored about someone.
+
+4.List the the three basic parts of a URL.
+The three basic parts of the url are the protocol, the domain name, and the path.
+
+The protocol is at the very beginning of the url. The standard web browsing protocol is http, so we see "http://" or "https://" at the beginning of a url.
+
+The domain name is the identifier of a specific website, such as "www.google.com/" and this follows immediately after the protocol.
+
+The path points the browser to a specific page on the website. For example, the path could be "/dinosaurs/velociraptor/". The path follows immediately after the domain name. The concatenation of a url would look like this:
+
+"https://" + "developer.mozilla.org/" + "en-US/docs/Learn/Common_questions/What_is_a_URL"
