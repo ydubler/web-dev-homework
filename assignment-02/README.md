@@ -12,4 +12,4 @@ I decided to take this class to hone my web development skills. I already know h
 
 [My Responses](./responses.txt)
 
-[My Screenshot](./images/screenshot.png)
+![My Screenshot](./images/screenshot.png)
