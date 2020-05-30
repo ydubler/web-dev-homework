@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Assignment 06: Tables and Forms</title>
+    <meta name="charset" content="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Yuri Dubler" />
+    <meta name="description" content="Tables and Forms" />
+    <style>
+      table,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Contact</h1>
+    <address>
+      6333 Butler Creek Rd. , Missoula , MT , 59801
+      <br />
+      406.543.4450
+    </address>
+    <a href="mailto:info@cmman.com">E-Mail</a>
+    <br />
+    <br />
+    <table>
+      <tr>
+        <th>Blueprint Technician</th>
+        <th>Machinist</th>
+        <th>Part Finisher</th>
+      </tr>
+      <tr>
+        <td>Joe Davies</td>
+        <td>Adam Castor</td>
+        <td>Kellin Oreman</td>
+      </tr>
+      <tr>
+        <td>jd@cmman.com</td>
+        <td>ac@cmman.com</td>
+        <td>ko@cmman.com</td>
+      </tr>
+    </table>
+    <br />
+    <form action="https://example.com/registration" method="post">
+      What is your first name?<br/>
+      <input type="text" name="firstname" maxlength="16"></input>
+      <br/>
+      <br/>
+      I am over 21 years of age  
+      <input type="checkbox" name="legalage"></input>
+      <br/>
+      <br/>
+      Please comment below:
+      <br/>
+      <textarea cols="50" rows="10" placeholder="Comment"></textarea>
+      <br/>
+      <input type="button" value="Submit" />
+    </form>
+  </body>
+</html>
