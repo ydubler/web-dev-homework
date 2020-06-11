@@ -1,0 +1,61 @@
+body {
+  background-color: slategray;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-family: "Cardo", serif;
+}
+
+h3 {
+  color: black;
+  font-family: "Cardo", serif;
+}
+
+h5 {
+  color: rgb(60, 60, 60);
+  font-family: "Cardo", serif;
+}
+
+p {
+  background-color: lightgray;
+  color: rgb(60, 60, 60);
+  text-align: left;
+  padding: 16px;
+  line-height: 1.3em;
+  font-family: "Cardo", serif;
+  font-size: 18px;
+}
+
+p:first-of-type::first-letter {
+  color: black;
+  font-family: "Parisienne", cursive;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.textblock {
+  margin: auto;
+  width: 700px;
+}
+
+a {
+  color: black;
+  background-color: darkgray;
+  width: 100px;
+  padding: 10px;
+  margin: auto;
+  font-family: "Cardo", serif;
+}
+a:hover {
+  border: solid black 3px;
+  color: black;
+}
+a:visited {
+  color: purple;
+}
+a:active {
+  border: solid red 5px;
+  color: red;
+}
