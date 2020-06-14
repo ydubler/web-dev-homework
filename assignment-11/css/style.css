@@ -26,6 +26,10 @@ body {
   height: auto;
 }
 
+.logo:hover {
+  transform: scale(1.1);
+}
+
 .link {
   height: 20px;
   padding-top: 10px;
@@ -45,12 +49,12 @@ body {
   width: 20%;
   padding: 5px;
   height: auto;
-  border: solid 1px white;
   border-radius: 100%;
+  border: solid 1px transparent;
 }
 
 .share-image:hover {
-  border-color: black;
+  border: solid 1px white;
 }
 
 .content {
