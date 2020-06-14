@@ -1,61 +1,48 @@
 body {
-  background-color: slategray;
-  text-align: center;
+  margin: 0;
 }
 
-h1 {
-  color: black;
-  font-family: "Cardo", serif;
+.top-bar {
+  background-color: gold;
+  margin: 50px;
 }
 
-h3 {
-  color: black;
-  font-family: "Cardo", serif;
-}
-
-h5 {
-  color: rgb(60, 60, 60);
-  font-family: "Cardo", serif;
-}
-
-p {
-  background-color: lightgray;
-  color: rgb(60, 60, 60);
-  text-align: left;
-  padding: 16px;
-  line-height: 1.3em;
-  font-family: "Cardo", serif;
-  font-size: 18px;
-}
-
-p:first-of-type::first-letter {
-  color: black;
-  font-family: "Parisienne", cursive;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.textblock {
-  margin: auto;
-  width: 700px;
-}
-
-a {
-  color: black;
-  background-color: darkgray;
+.logo {
+  display: inline-block;
   width: 100px;
-  padding: 10px;
+  height: 100px;
+  background-color: white;
+  margin: 20px;
+  border: solid;
+  border-color: gold;
+  border-radius: 100%;
+}
+
+.title {
+  display: inline-block;
   margin: auto;
-  font-family: "Cardo", serif;
 }
-a:hover {
-  border: solid black 3px;
-  color: black;
+
+.links {
+  display: inline-block;
 }
-a:visited {
-  color: purple;
+
+.logo:hover {
+  border-color: black;
 }
-a:active {
-  border: solid red 5px;
-  color: red;
+
+.text-area {
+  display: inline-block;
+  border: solid goldenrod 5px;
+  margin: 50px;
+  margin-left: 0px;
+}
+
+.sub-links {
+  position: relative;
+  display: inline-block;
+  background-color: lightskyblue;
+  width: 200px;
+  margin-right: 0px;
+  margin-left: 50px;
 }
