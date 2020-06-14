@@ -49,12 +49,10 @@ body {
   width: 20%;
   padding: 5px;
   height: auto;
-  border-radius: 100%;
-  border: solid 1px transparent;
 }
 
 .share-image:hover {
-  border: solid 1px white;
+  transform: scale(1.2);
 }
 
 .content {
@@ -98,5 +96,9 @@ body {
 }
 
 .house-stark {
-  padding-right: 15px;
+  margin-right: 15px;
+  padding-right: 3px;
+  border: solid black 2px;
+  border-radius: 20px;
+  background-color: darkgray;
 }
