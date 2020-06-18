@@ -1,11 +1,13 @@
 body {
   margin: 0;
+  background-color: cornsilk;
 }
 
 .title-bar {
   background-color: orangered;
   margin: 20px;
   text-align: center;
+  min-width: 350px;
 }
 
 .title {
@@ -27,6 +29,8 @@ body {
   border-radius: 30px;
   margin: 20px;
   text-align: center;
+  background-color: ivory;
+  min-width: 240px;
 }
 
 .nav-button {
@@ -38,6 +42,7 @@ body {
   text-align: center;
   height: auto;
   width: 100px;
+  padding: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 20px;
@@ -46,4 +51,194 @@ body {
 .nav-button:hover {
   background-color: orangered;
   color: white;
+}
+
+.nav-button a {
+  text-decoration: none;
+  color: orangered;
+}
+
+.nav-button:hover a {
+  background-color: orangered;
+  color: white;
+}
+
+.nav-button a:active {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.current-page {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-button-dropdown {
+  display: inline-block;
+  margin: 10px;
+  background-color: white;
+  border: orangered solid 1px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: orangered solid 5px;
+  text-align: center;
+  height: auto;
+  width: 180px;
+  padding: 15px;
+  color: orangered;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.nav-button-dropdown:hover {
+  background-color: orangered;
+  color: white;
+}
+
+.nav-button-dropdown-options {
+  position: absolute;
+  display: none;
+  margin: 10px;
+  padding: 15px;
+  margin-left: -20px;
+  background-color: ivory;
+  border: dotted deeppink 5px;
+  border-radius: 10px;
+  text-align: center;
+  height: auto;
+  width: 180px;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.nav-button-dropdown-options-option {
+  display: block;
+  background-color: white;
+  border-radius: 10px;
+  border: solid orangered 1px;
+  text-align: center;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 180px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.nav-button-dropdown-options-option:hover {
+  background-color: orangered;
+}
+
+.nav-button-dropdown-options-option a:visited {
+  font-style: italic;
+  color: coral;
+}
+
+.nav-button-dropdown-options-option:hover a {
+  color: white;
+}
+
+.nav-button-dropdown-options-option a {
+  color: orangered;
+  text-decoration: none;
+}
+
+.nav-button-dropdown-options-option a:active {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.nav-button-dropdown:hover .nav-button-dropdown-options {
+  display: block;
+}
+
+.page-heading {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  margin-left: 30px;
+  text-decoration: underline overline;
+  text-align: center;
+}
+
+.content-full {
+  padding: 30px;
+  background-color: ivory;
+  margin: 30px;
+  margin-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  line-height: 1.3em;
+}
+
+.content-half-left {
+  width: 40%;
+  float: left;
+  padding: 30px;
+  margin-right: 10px;
+  background-color: ivory;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  line-height: 1.3em;
+}
+
+.content-half-right {
+  width: 40%;
+  float: right;
+  padding: 30px;
+  margin-left: 10px;
+  background-color: ivory;
+  margin-right: 30px;
+  margin-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  line-height: 1.3em;
+}
+
+.content-image-left {
+  width: 100px;
+  float: left;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.content-image-right {
+  width: 100px;
+  float: right;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.content-full::first-letter {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+}
+
+.content-header {
+  font-size: 40px;
+  font-family: Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.image-half {
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  background-color: ivory;
+  border-radius: 20px;
+}
+
+.centered {
+  text-align: center;
 }

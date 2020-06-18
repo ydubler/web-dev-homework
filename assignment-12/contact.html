@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Assignment 12: CSS Website</title>
+    <meta name="charset" content="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Yuri Dubler" />
+    <meta name="description" content="CSS Website" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="title-bar">
+      <div class="title">3D PRINTING</div>
+    </div>
+    <div class="left-nav">
+      <div class="nav-button">
+        <a href="index.html">Index</a>
+      </div>
+      <div class="nav-button"><a href="services.html">Services</a></div>
+      <div class="nav-button"><a href="about.html">About</a></div>
+      <div class="nav-button">
+        <a class="current-page" href="contact.html">Contact</a>
+      </div>
+      <div class="nav-button-dropdown">
+        Metal 3D-Printing
+        <div class="nav-button-dropdown-options">
+          <div class="nav-button-dropdown-options-option">
+            <a href="https://www.youtube.com/watch?v=Bjf9gMDP47s"
+              >Sea Of Electrons</a
+            >
+          </div>
+          <div class="nav-button-dropdown-options-option">
+            <a href="https://www.youtube.com/watch?v=OQLSCiup1xw"
+              >Band Theory</a
+            >
+          </div>
+          <div class="nav-button-dropdown-options-option">
+            <a href="https://www.youtube.com/watch?v=yiUUZxp7bLQ"
+              >Powder Bed DMLS</a
+            >
+          </div>
+          <div class="nav-button-dropdown-options-option">
+            <a href="https://www.youtube.com/watch?v=yKnlmfuMSgo"
+              >Laser Metal Deposition</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page-heading">
+      CONTACT
+    </div>
+    <div class="content-full centered">
+      <form action="https://example.com/registration" method="post">
+        What is your first name?<br/>
+        <input type="text" name="firstname" maxlength="16"></input>
+        <br/>
+        <br/>
+        Do you have a 3d printer?
+        <input type="checkbox" name="legalage"></input>
+        <br/>
+        <br/>
+        Please enter a message below:
+        <br/>
+        <textarea cols="50" rows="10" placeholder="..."></textarea>
+        <br/>
+        <input type="image" src="./images/submit-button.png" alt="A picture of an arrow that when pressed submits the information provided." width="100" height="30" />
+      </form>
+    </div>
+  </body>
+</html>
