@@ -2,12 +2,10 @@
 
 ## Yuri Dubler
 
-My imaginary client was a friend who wants a website where he can describe his favorite hobby: 3d printing. He said he wanted to be able to describe some basic details about 3d printing and add more to the website later as it progressed. He wanted me to send him this initial version after which I would get some feedback to revise his website.
+I definitely learned some new things about web-development. I already had intermediate knowledge about git and github using the command line so the git desktop application was a new thing -- very easy to use. In this class we mostly just committed and pushed, whereas other projects might have required us to revert to earlier commits. The biggest things I learned were the CSS selectors; I did not know that you can target an elements child elements nor did I know that you can target a different element on hover. This enabled dropdown menus. The next most important thing I learned was about the positioning properties, like margin and padding. I didn't use these properties too much in the past, but they are vital for spacing.
 
-Elements styled with display:block run vertically down the page. Block display elements always behave like there is a line-space after them, so any following blocks will go to the next line.
+I definitely learned some new things about web-design. I've never been formally educated about font pairings or colors, although I've had to make these types of design choies before. Some fonts pair well together and others don't. I like to think I chose a pair of fonts that match decently well for my final website. I also learned a bit about fonts, such as what serif, sans-serif, and monospace means. I hope that I chose a set of colors that contributed to a certain theme and meshed well together.
 
-Elements whose display is inline-block will follow each-other on the same line. However, these elements will obey spacing properties, like width, padding, and margins. These elements will alow go the next line if there isn't enough room on the current line. You must set the width of these elements to make them behave properly.
+This assignment was similar to the previous one. I only had two days to do it (Thursday and Friday) so I had to throw something together quickly and I wasn't quite sure what my website would be about. So, I just chose a theme and just put in content related to that theme. Hopefully the final will be satisfactory given the time constraints given the it has minimal content.
 
-Elements whose display is inline all occur on the same line. These elements ignore width-spacing properties (width and margin) and instead take up only as much space as needed. You can not change the vertical space between these elements and other elements. They also do not force new lines.
-
-This assignment was similar to the previous because it required a bit of time tinkering with display and position properties, in addition to lots of margins and paddings. I enjoyed using borders and I appreciate the new knowledge on how to create drop down menus. The color scheme seems reasonable to me but I'm no expert, and the fonts all seem to work well.
+Thank you for teaching this class, I learned alot.
