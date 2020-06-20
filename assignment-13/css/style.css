@@ -73,6 +73,8 @@ body {
   display: none;
   background-color: rgb(15, 15, 55);
   border: solid cyan 2px;
+  border-radius: 10px;
+  right: 0px;
   position: absolute;
   width: 150px;
 }
